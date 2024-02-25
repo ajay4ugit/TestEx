@@ -6,13 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
-public class TestExApplication {
-	@GetMapping("hi")
-	public String sayHi() {
-		return "welcome to boot";
-	}
-
+public class TestExApplication {	
 	public static void main(String[] args) {
 		SpringApplication.run(TestExApplication.class, args);
 	}
